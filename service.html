@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service.html</title>
+    <link rel="stylesheet" href="https://dudos.co.uk/styles.3f4c6a7ff245c3434eb2.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.js"
+        integrity="sha512-bUju8VkXhCQgW7zCHSdiIDpECo/lqzChkKrKoc1v2PL2XqO/0Q2Y8dhu07+q6Rk+1c1xr6cfE0VZnumgwy93Ig=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <nav class="bg-black border-gray-200 dark:bg-black dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="image/DUDOS-logo-white.png" class="h-8" alt="DUDOS-logo-white" />
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-black dark:border-gray-700 ">
+                    <li>
+                        <a href="/index.html" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 
+                                hover:text-pink-200  md:dark:bg-transparent" aria-current="page">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/about.html"
+                            class="block py-2 px-3 text-gray-900 rounded lg: hover:text-pink-200  md:border-0 md:p-0 dark:text-white md:dark:hover:text-pink-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT</a>
+                    </li>
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 border rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">SERVICES<svg
+                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="service.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">WEB
+                                        DESIGN UK</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">BLOG</a>
+                    </li>
+                    <li>
+                        <a class="-mt-1" href="/start a project.html"><button aria-label="Contact"
+                                class="relative btn p-2 text-white text-sm font-bold rounded uppercase ">Contact
+                                <div data-text="Contact" class="btn_inner btn_inner--dark"></div>
+                            </button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section style="background: rgb(0, 0, 0); color: rgb(255, 255, 255);">
+            <div class="container lg:flex lg:flex-row-reverse">
+                <div class="flex-1 pt-16 lg:pt-0">
+                    <div class="w-4/5 mx-auto gatsby-image-wrapper" style="position: relative; overflow: hidden;">
+                        <img src="image/yug-ezgif.com-webp-to-png-converter.png" alt="">
+                    </div>
+                </div>
+                <div class="pt-4 lg:pt-24 pb-24 flex-1">
+                    <div class="formatted-text" style="color: inherit;">
+                        <h1>Web design and development services that give your business more reach across the UK and
+                            beyond</h1>
+                    </div>
+                    <div class="mt-4">
+                        <div class="formatted-text" style="color: inherit;">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="flex mt-12 lg:w-2/3 mb-8">
+                        <div class="mr-4 flex-1 text-center"><img class="block mx-auto mb-4"
+                                src="https://prismic-io.s3.amazonaws.com/dudos-website/16193f27-ec93-4ce8-977f-09d82c4b1798_Icon+open-brush.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                alt="icon"><span class="hidden lg:block leading-none text-sm">Design</span></div>
+                        <div class="mr-4 flex-1 text-center"><img class="block mx-auto mb-4"
+                                src="https://prismic-io.s3.amazonaws.com/dudos-website/206c1b0d-3377-41c1-be5c-f623ef7cf326_Icon+awesome-react.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                alt="icon"><span class="hidden lg:block leading-none text-sm">Development</span></div>
+                        <div class="mr-4 flex-1 text-center"><img class="block mx-auto mb-4"
+                                src="https://prismic-io.s3.amazonaws.com/dudos-website/e889d673-dcd3-4dc8-bc47-bc7dc782e7d3_Icon+metro-rocket.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                alt="icon"><span class="hidden lg:block leading-none text-sm">Marketing</span></div>
+                        <div class="mr-4 flex-1 text-center"><img class="block mx-auto mb-4"
+                                src="https://prismic-io.s3.amazonaws.com/dudos-website/de40dcf3-2191-4bb0-8efd-cdf4e2941bbc_Icon+open-grid-two-up.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                alt="icon"><span class="hidden lg:block leading-none text-sm">Additional</span></div>
+                    </div><a href="/start a project.html"><button aria-label="START A PROJECT"
+                            class="relative btn p-2 mt-4 text-white text-sm font-bold px-6 py-3 rounded uppercase ">START
+                            A PROJECT<div data-text="START A PROJECT" class="btn__inner btn__inner--dark"></div>
+                        </button></a>
+                </div>
+            </div>
+        </section>
+        <section class="py-24" style="background: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+            <div class="container">
+                <figure class="mb-16 mx-auto flex justify-center"><img
+                        src="https://prismic-io.s3.amazonaws.com/dudos-website/30ce9996-9da6-4f6c-ae29-30df708570fb_DUDOS-logo-black.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                        alt="DUDOS Online Ltd logo"></figure>
+                <header class="text-center mb-16 lg:mb-32 lg:w-2/3 mx-auto">
+                    <div class="mb-4">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h2>Professional web design service that communicates your message and brand</h2>
+                        </div>
+                    </div>
+                    <div class="formatted-text" style="color: inherit;">
+                        <p>Establish your brand online and communicate a professional message with our premium bespoke
+                            website designs.</p>
+                    </div>
+                    <div class="my-8 flex justify-center"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/4bad5975-2111-4d4f-bebf-6bae53f5bd60_Icon+material-shopping-cart.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="cart"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/900305c7-8794-4c74-b70d-684b6ffb0ba5_Icon+awesome-mobile-alt.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="mobile phone"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/e05f38a2-fecd-45f2-986a-d7ddd41337e0_Icon+simple-adobexd.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Adobe XD icon"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/1cf5d2f2-ae76-45b2-93cb-bdc83bbee815_Icon+open-brush.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Brush"></div><a href="/start a project.html"><button aria-label="START A PROJECT"
+                            class="relative btn p-2 mt-4 text-black text-sm font-bold px-6 py-3 rounded uppercase shadow-xl">START
+                            A PROJECT<div data-text="START A PROJECT" class="btn__inner btn__inner--light"></div>
+                        </button></a>
+                </header>
+                <div class="lg:grid grid-cols-2 col-gap-24 row-gap-12 lg:px-32">
+                    <div class="mb-12 lg:mb-0">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>E-commerce design</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Explore new possibilities with our incredibly flexible design process. Create stunning
+                                landing and product pages with rich media and amazing designs.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Responsive design&nbsp;</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Target mobile users with fully optimised responsive web designs. Our mobile-first design
+                                methods take responsive web design to another level.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>UX Design</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Ensure your users have a clear path to explore your website and potentially convert to
+                                customers with our enhanced user experience design.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Custom web design</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Have a website tailored to your business and brand. We don't use rigid frameworks so we
+                                can design websites with incredible flexibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="primary-clip pb-24 relative" style="background: rgb(0, 0, 0); color: rgb(255, 255, 255);">
+            <section class="container bg-top bg-contain gbi--1798829837-qt51ARz9u815aX22L55edi gatsby-image-wrapper"
+                style="position: relative; opacity: 0.99; background-position: 50% 0%; background-repeat: no-repeat; background-size: contain;">
+                <style>
+                    .container.bg-top.bg-contain.gbi--1798829837-qt51ARz9u815aX22L55edi:before,
+                    .container.bg-top.bg-contain.gbi--1798829837-qt51ARz9u815aX22L55edi:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        background-color: transparent;
+                        transition: opacity 0.5s ease 500ms;
+                        background-position: center top;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position-x: center;
+                        background-position-y: top;
+
+                    }
+
+                    .container.bg-top.bg-contain.gbi--1798829837-qt51ARz9u815aX22L55edi:before {
+                        z-index: -100;
+                        background-image: url(image/8b333bdd-2c8b-4a03-9133-15074b7ae03c_service-hero-1bg-ezgif.com-webp-to-png-converter.png);
+                        opacity: 1;
+                    }
+
+                    .container.bg-top.bg-contain.gbi--1798829837-qt51ARz9u815aX22L55edi:after {
+                        z-index: -101;
+
+                        background-image: url(data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABmdkfEeIF/8QAGRAAAwADAAAAAAAAAAAAAAAAAQIDBBMg/9oACAEBAAEFAls5Nsw0Ta/H/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQMFAQAAAAAAAAAAAAAAAQACEQMgITJRkf/aAAgBAQAGPwKTUdKAGOrd3tn/xAAbEAACAwADAAAAAAAAAAAAAAABEQAhQRBRcf/aAAgBAQABPyEUTLFxtQbGmF9AHTwb5z//2gAMAwEAAgADAAAAELQP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAQABAwUAAAAAAAAAAAAAAREAECExQVFhodH/2gAIAQEAAT8QSw5RsnVx4AgAj8svdvAA940I8MrJdnT/2Q==);
+                        opacity: 0;
+                    }
+                </style><noscript></noscript>
+                <section style="padding-top: 512px;">
+                    <div class="lg:flex">
+                        <header class="mb-16 lg:mb-48 mt-16 lg:w-1/2 lg:pr-16">
+                            <div class="mb-4 big-title">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h2>Professional web development service</h2>
+                                </div>
+                            </div>
+                            <div class="formatted-text" style="color: inherit;">
+                                <p>Embrace the web development revolution with latest JAMStack technology, Headless
+                                    E-commerce and enhanced mobile experiences with our next-generation web development
+                                    services.</p>
+                            </div>
+                            <div class="my-8 flex"><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/1f2ddb66-4207-4000-b246-9032608d1ad8_Icon+material-shopping-cart.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Cart"><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/d8a6217a-028a-4095-8801-19985658d3a1_Icon+awesome-mobile-alt.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Mobile phone"><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/1c5b1c32-cd9c-4a51-a423-5b6465b27435_Icon+simple-gatsby.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Gatsby JS icon"><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/752d058c-6af7-4820-a609-2eb278bd89dd_Icon+material-search.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Search "><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/09707591-387a-4251-b7ec-758854a0c006_Icon+awesome-cogs.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Cogs"><img class="h-4 lg:h-auto mr-8"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/d949d092-a922-49bb-98fc-ddc81e347efc_Icon+simple-firebase.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Firebase icon"></div><a href="/start a project.html"><button
+                                    aria-label="START A PROJECT"
+                                    class="relative btn p-2 mt-4 text-white text-sm font-bold px-6 py-3 rounded uppercase ">START
+                                    A PROJECT<div data-text="START A PROJECT" class="btn__inner btn__inner--dark"></div>
+                                </button></a>
+                        </header>
+                        <div class="flex-1 lg:grid grid-cols-2 col-gap-16">
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/1f2ddb66-4207-4000-b246-9032608d1ad8_Icon+material-shopping-cart.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Cart" style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>E-commerce development</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Create a truly unique shopping experience and deliver your content across
+                                        multiple channels with&nbsp;<a target="_blank" rel="noopener"
+                                            href="https://www.bigcommerce.co.uk/solutions/headless-commerce/">BigCommerce
+                                            Headless</a>&nbsp;integration.</p>
+                                </div>
+                            </div>
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/d8a6217a-028a-4095-8801-19985658d3a1_Icon+awesome-mobile-alt.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Mobile phone" style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>Mobile-first</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Enhance your user's mobile experience with our mobile-first adaptive development
+                                        method and take responsive web design even further.</p>
+                                </div>
+                            </div>
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/1c5b1c32-cd9c-4a51-a423-5b6465b27435_Icon+simple-gatsby.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Gatsby JS icon" style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>JAMStack web development</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Ensure your website has the best performance and security available with
+                                        our&nbsp;<a target="_blank" rel="noopener"
+                                            href="https://jamstack.org/">JAMStack</a>&nbsp;websites, giving you the edge
+                                        over your competition.</p>
+                                </div>
+                            </div>
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/752d058c-6af7-4820-a609-2eb278bd89dd_Icon+material-search.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Search " style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>Technical SEO</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Give your website a rock-solid SEO foundation with our baked-in SEO development
+                                        process and&nbsp;<a target="_blank" rel="noopener"
+                                            href="https://schema.org/">Schema</a>&nbsp;integration.</p>
+                                </div>
+                            </div>
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/09707591-387a-4251-b7ec-758854a0c006_Icon+awesome-cogs.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Cogs" style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>Bespoke features</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Automate your business tasks or provide a unique tool for your users that will
+                                        make your website shine with our bespoke custom features.</p>
+                                </div>
+                            </div>
+                            <div class="mb-12 lg:mb-0"><img class="mb-4 h-4 lg:h-auto"
+                                    src="https://prismic-io.s3.amazonaws.com/dudos-website/d949d092-a922-49bb-98fc-ddc81e347efc_Icon+simple-firebase.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                                    alt="Firebase icon" style="filter: invert(0);">
+                                <div class="formatted-text" style="color: inherit;">
+                                    <h3><strong>API Integration</strong></h3>
+                                </div>
+                                <div class="formatted-text" style="color: inherit;">
+                                    <p>Link your website with third-party API's to enhance your websites user experience
+                                        and provide rich content for your users.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class="py-24" style="background: rgb(250, 250, 250); color: rgb(0, 0, 0);">
+            <div class="container">
+                <figure class="mb-16 mx-auto flex justify-center"><img
+                        src="https://prismic-io.s3.amazonaws.com/dudos-website/30ce9996-9da6-4f6c-ae29-30df708570fb_DUDOS-logo-black.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                        alt="DUDOS Online Ltd logo"></figure>
+                <header class="text-center mb-16 lg:mb-32 lg:w-2/3 mx-auto">
+                    <div class="mb-4">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h2>Digital market strategies that enable you to dominate your space online</h2>
+                        </div>
+                    </div>
+                    <div class="formatted-text" style="color: inherit;">
+                        <p>Become an authority in your field and generate more high-value traffic to your website with
+                            our digital marketing service.</p>
+                    </div>
+                    <div class="my-8 flex justify-center"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/2db783d0-c151-49a6-b161-96c06e22466f_Icon+material-search.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Search"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/2be067d6-3e02-4ff7-b02b-e827f3825a93_Icon+material-content-copy.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Content marketing"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/9b729bd9-884b-4f05-bb75-0d8ed9aa0124_Icon+material-play-circle-outline.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Play"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/eb624391-4e37-43f3-a16a-2cf4b248fb41_Icon+material-mail-outline.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="mail"></div><a href="/start a project.html"><button aria-label="START A PROJECT"
+                            class="relative btn p-2 mt-4 text-black text-sm font-bold px-6 py-3 rounded uppercase shadow-xl">START
+                            A PROJECT<div data-text="START A PROJECT" class="btn__inner btn__inner--light"></div>
+                        </button></a>
+                </header>
+                <div class="lg:grid grid-cols-2 col-gap-24 row-gap-12 lg:px-32">
+                    <div class="mb-12 lg:mb-0"><img class="h-4 lg:h-auto mb-4 lg:mb-4"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/2db783d0-c151-49a6-b161-96c06e22466f_Icon+material-search.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Search">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3>SEO</h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Propel your website to the top of search engines and drive traffic to your website with
+                                our comprehensive on-page &amp; off-page SEO services.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0"><img class="h-4 lg:h-auto mb-4 lg:mb-4"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/2be067d6-3e02-4ff7-b02b-e827f3825a93_Icon+material-content-copy.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Content marketing">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Content marketing</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Attract high-value traffic to your website by developing rich, informative content,
+                                boosting your authority and value to potential customers.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0"><img class="h-4 lg:h-auto mb-4 lg:mb-4"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/9b729bd9-884b-4f05-bb75-0d8ed9aa0124_Icon+material-play-circle-outline.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="Play">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Video marketing</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Create viral video content and broadcast your message to millions with our professional
+                                video marketing and video production service.</p>
+                        </div>
+                    </div>
+                    <div class="mb-12 lg:mb-0"><img class="h-4 lg:h-auto mb-4 lg:mb-4"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/eb624391-4e37-43f3-a16a-2cf4b248fb41_Icon+material-mail-outline.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                            alt="mail">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Email marketing</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Engage directly with your most loyal customers and alert them with your latest offers and
+                                information with our email marketing service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-24 pb-48" style="background: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+            <div class="container">
+                <figure class="mb-16 mx-auto flex justify-center"><img
+                        src="https://prismic-io.s3.amazonaws.com/dudos-website/9e8ba1b5-86bf-4c79-bb40-2ebb11ae9491_Icon+awesome-feather.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"
+                        alt="Feather"></figure>
+                <header class="lg:text-center mb-16 lg:mb-32 lg:w-2/3 mx-auto">
+                    <div class="formatted-text" style="color: inherit;">
+                        <h2><strong>Additional services&nbsp;</strong></h2>
+                    </div>
+                    <div class="formatted-text" style="color: inherit;">
+                        <p>Give your website the wow-factor in the areas your business needs with our list of
+                            professional services that will make your website shine.</p>
+                    </div>
+                    <div class="my-8 flex justify-center"><img class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/74891863-a763-4fcc-8e1e-c3a33cc3141b_Icon+material-pages.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"><img
+                            class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/12fe9c6b-ab8d-4f23-b12a-3b2df3d17abe_Icon+ionic-md-cube.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"><img
+                            class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/2be067d6-3e02-4ff7-b02b-e827f3825a93_Icon+material-content-copy.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"><img
+                            class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/976b6212-c026-4ebb-b797-b9b1e85240f2_Icon+material-photo-camera.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"><img
+                            class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/13bf5b61-b253-41bc-96ad-adf6f48acccc_Icon+feather-layout.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50"><img
+                            class="mx-4 h-4 lg:h-auto"
+                            src="https://prismic-io.s3.amazonaws.com/dudos-website/80257845-05d4-4a4d-84f7-043ab41e3405_Icon+feather-bar-chart.svg?auto=format%2Ccompress&amp;fit=max&amp;q=50">
+                    </div>
+                </header>
+                <div class="lg:grid grid-cols-3 gap-8">
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Landing page design</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Create stunning dynamic landing pages on-the-fly with incredible customisation. We can
+                                set you up via a Headless CMS, to publish lightning-fast, static webpage pages across
+                                multiple channels.</p>
+                        </div>
+                    </div>
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Photo-realistic 3D rendering</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Generate interest in your leading products and services with photo-realistic 3D imagery
+                                that will bring customers closer to your business.</p>
+                        </div>
+                    </div>
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Copywriting</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Provide your website with structured and engaging content optimised for SEO and saving
+                                you time with our enhanced copywriting service.</p>
+                        </div>
+                    </div>
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Photography</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Give your website the professional edge with stunning photography. Our photography
+                                service includes professional touch-ups and editing.</p>
+                        </div>
+                    </div>
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Enhanced Schema</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Give your website the prominent edge in search engines with our enhanced schema
+                                integration service.</p>
+                        </div>
+                    </div>
+                    <div class="pr-8">
+                        <div class="formatted-text" style="color: inherit;">
+                            <h3><strong>Data visualisation</strong></h3>
+                        </div>
+                        <div class="formatted-text" style="color: inherit;">
+                            <p>Provide your users with a stunning user interface with data-driven vector graphics and
+                                animated charts for breathtaking data-visualisations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark pt-24 pb-16">
+        <div class="md:flex container text-gray-400 text-sm">
+            <div class="flex-1 text-gray-400">
+                <div class="mb-4"><a aria-current="page" class="" href="/"><img class="h-6"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIuMjM5IiBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgMTkyLjIzOSAzMCI+CiAgPGcgaWQ9Ikdyb3VwXzI1MSIgZGF0YS1uYW1lPSJHcm91cCAyNTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMDUuNSAtMjQ3LjIxOSkiPgogICAgPHBhdGggaWQ9IlBhdGhfMTY5NCIgZGF0YS1uYW1lPSJQYXRoIDE2OTQiIGQ9Ik0xOS41LTE3OC45NDhIMzAuMTgyYzQuNywwLDcuODYxLTEuMjc5LDEwLjE1NS00LjFhMTIuODA4LDEyLjgwOCwwLDAsMCwyLjYtOC4yNzUsMTMuNTgsMTMuNTgsMCwwLDAtMy4yMzUtOS4zMjhjLTIuMjU3LTIuNDgyLTQuOTI3LTMuMzg1LTkuODU1LTMuMzg1SDE5LjVabTcuNTIzLTYuMjgxdi0xMi41MjVoMi40NDVjMi4yMTksMCwzLjYxMS41NjQsNC42MjYsMS45MThhNy43LDcuNywwLDAsMSwxLjMxNiw0LjU4OWMwLDQuMDI1LTEuOTE4LDYuMDE4LTUuNzE3LDYuMDE4Wm01MC4wMjUtMTguODA2djE1LjQ1OWMwLDIuNTItMS4zNTQsMy45MTItMy44MzYsMy45MTItMi40NDUsMC0zLjgtMS4zOTItMy44LTMuOTEyVi0xOTkuNEg2MS44OXYxMS41MzVjMCwzLjM4NS44MjcsNS4zNzksMi44NTksNywyLjEwNiwxLjY5Myw0Ljg1MiwyLjQ4Miw4LjUsMi40ODIsMy42MTEsMCw2LjM5NC0uNzksOC41LTIuNDgyLDEuOTkzLTEuNjE3LDIuODIxLTMuNjExLDIuODIxLTd2LTE2LjE3M1ptMjcuNDk1LDI1LjA4OGgxMC42ODJjNC43LDAsNy44NjEtMS4yNzksMTAuMTU1LTQuMWExMi44MDgsMTIuODA4LDAsMCwwLDIuNi04LjI3NSwxMy41OCwxMy41OCwwLDAsMC0zLjIzNS05LjMyOGMtMi4yNTctMi40ODItNC45MjctMy4zODUtOS44NTUtMy4zODVIMTA0LjU0MlptNy41MjMtNi4yODF2LTEyLjUyNWgyLjQ0NWMyLjIxOSwwLDMuNjExLjU2NCw0LjYyNiwxLjkxOGE3LjcsNy43LDAsMCwxLDEuMzE2LDQuNTg5YzAsNC4wMjUtMS45MTgsNi4wMTgtNS43MTcsNi4wMThabTQ2Ljc5LTE5LjM3MWMtNy42MzUsMC0xMi45LDUuMzQxLTEyLjksMTMuMDg5LDAsNy43ODYsNS4yNjYsMTMuMTI3LDEyLjksMTMuMTI3LDcuNiwwLDEyLjkzOS01LjM0MSwxMi45MzktMTIuOTM5QzE3MS43OTQtMTk5LjMsMTY2LjY0MS0yMDQuNiwxNTguODU1LTIwNC42Wm0wLDYuMjgxYzMuMTYsMCw1LjE1MywyLjY3MSw1LjE1Myw2Ljg4MywwLDQuMS0yLjAzMSw2Ljc3LTUuMTE1LDYuNzctMy4xNTksMC01LjE1My0yLjY3MS01LjE1My02Ljg0NkMxNTMuNzQtMTk1LjY0OCwxNTUuNzMzLTE5OC4zMTksMTU4Ljg1NS0xOTguMzE5Wm01MS42OCwxLjczYTcuNDMzLDcuNDMzLDAsMCwwLTEuNTQyLTQuNjY0Yy0xLjY1NS0yLjE4Mi00LjYyNi0zLjM0OC04LjU3Ni0zLjM0OC02LjEzMSwwLTEwLjMwNiwzLjEyMi0xMC4zMDYsNy43NDhhNi43NDUsNi43NDUsMCwwLDAsMS40NjcsNC4yMTNjMS4wOTEsMS4zMTYsMi42MzMsMi4yMTksNS40MTYsMy4wODRsNC45NjUsMS41NDJjMS41NDIuNDg5LDIuMTA2Ljk0LDIuMTA2LDEuNjkzLDAsMS4xMjgtMS4zNTQsMS45MTgtMy4yNzIsMS45MTgtMi4zNywwLTMuNzI0LTEuMDUzLTMuOC0yLjkzNGgtNy43MTFhOC4xMjgsOC4xMjgsMCwwLDAsMi4wMzEsNS4zNzljMi4wNjksMi4yOTQsNS4zNzksMy41NzMsOS4zMjgsMy41NzMsNi42NTcsMCwxMS4xLTMuNDYsMTEuMS04LjYxMywwLTMuOTEyLTIuMTQ0LTUuOTgtNy45LTcuNjM1bC00Ljc3Ny0xLjM5MmMtMS4wMTYtLjMtMS40MjktLjY3Ny0xLjQyOS0xLjMxNiwwLS44NjUsMS4xMjgtMS41LDIuNjMzLTEuNWEyLjg3NSwyLjg3NSwwLDAsMSwzLjA0NywyLjI1N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4NiA0NTUuNjAzKSIgZmlsbD0iI2ZjZjlmOSIvPgogICAgPHBhdGggaWQ9IlBhdGhfMTY5NSIgZGF0YS1uYW1lPSJQYXRoIDE2OTUiIGQ9Ik0yMDY3OS4xMjksMzc5MC4zNThoNy41MTh2LTMuOTIzbC03LjUxOC00LjIxNVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMDQzMS4yOTcgLTM1MzUpIiBmaWxsPSIjYTc0OThlIi8+CiAgPC9nPgo8L3N2Zz4K"
+                            alt="DUDOS Logo"></a></div>
+                <ul class="list-none px-0 mb-8">
+                    <li class="py-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" color="white" class="inline-block mr-4" height="1.2rem"
+                            width="1.2rem" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                            <path
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z">
+                            </path>
+                        </svg><a href="tel:+442039209079">+44 (0)20 3920 9079</a></li>
+                    <li class="py-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" color="white" class="inline-block mr-4" height="1.2rem"
+                            width="1.2rem" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z">
+                            </path>
+                        </svg><span>St Dominics Mews, Greater Manchester, UK</span></li>
+                    <li class="py-2 flex">
+                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                color="white" class="mr-4" height="1.2rem" width="1.2rem"
+                                xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                                <path
+                                    d="M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23.23.01.44.05.63.13.2.09.38.21.52.36s.25.33.34.53.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01-.66-.5-1.08-.66-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35.72.69 1.2.91 1.05.34 1.7.34c.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63.56-.58.74-.94.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46-.32.23-.52.3c-.19.07-.39.09-.6.1-.36-.01-.66-.08-.89-.23-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                </path>
+                            </svg></div>
+                        <p class="pr-16 ">2020. All rights reserved, DUDOS Online Ltd. UK registered company Company
+                            number: 08159006 VAT Registered: GB167444880 </p>
+                    </li>
+                </ul><strong class="block mb-4 text-white font-bold text-base">Join us</strong>
+                <form name="subscribe" method="post" data-netlify="true" class="mt-0 mb-8"><input type="hidden"
+                        name="bot-field" data-netlify-honeypot="bot-field"><input type="hidden" name="form-name"
+                        value="subscribe"><label><span class="text-white mb-2 block text-xs text-gray-400">Enter
+                            your email here:</span>
+                        <div class="flex"><input name="subscriber" id="subscriber"
+                                class="text-white text-sm block bg-gray-800 py-1 px-2 w-1/2" type="email"><button
+                                class="bg-secondary text-white text-xs px-4 rounded-tr-md">SUBSCRIBE</button></div>
+                    </label></form>
+            </div>
+            <div class="md:w-1/4"><strong class="text-white font-bold text-base">Website</strong>
+                <ul class="list-none px-0 mt-2">
+                    <li class="py-1"><a aria-current="page" class="hover:text-primary" href="/">Home</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/about">About</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/services">Services</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/portfolio">Portfolio</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/blog">Blog</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/contact">Contact</a></li>
+                </ul><strong class="text-white font-bold text-base">Helpful links</strong>
+                <ul class="list-none px-0 mt-2">
+                    <li class="py-1"><a class="hover:text-primary" href="/terms">Terms &amp; conditions</a></li>
+                    <li class="py-1"><a class="hover:text-primary" href="/privacy">Privacy policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
